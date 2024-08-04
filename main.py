@@ -157,7 +157,7 @@ def main():
                 st.session_state.page = "primary"
                 st.experimental_rerun()  # Force rerun to update page
 
-            st.image("Images/Primary.jpg", use_column_width=True)  # Replace with your image path
+            st.image("Primary.jpg", use_column_width=True)  # Replace with your image path
             st.write("Primary Sector")
 
         with col2:
@@ -165,7 +165,7 @@ def main():
                 st.session_state.page = "secondary"
                 st.experimental_rerun()  # Force rerun to update page
 
-            st.image("Images/Secondary.jpg", use_column_width=True)  # Replace with your image path
+            st.image("Secondary.jpg", use_column_width=True)  # Replace with your image path
             st.write("Secondary Sector")
 
         with col3:
@@ -173,7 +173,7 @@ def main():
                 st.session_state.page = "tertiary"
                 st.experimental_rerun()  # Force rerun to update page
 
-            st.image("Images/Tertiary.jpg", use_column_width=True)  # Replace with your image path
+            st.image("Tertiary.jpg", use_column_width=True)  # Replace with your image path
             st.write("Tertiary Sector")
     
     elif st.session_state.page == "primary":
